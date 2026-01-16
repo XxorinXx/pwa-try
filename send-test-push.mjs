@@ -12,11 +12,11 @@ webPush.setVapidDetails("mailto:you@example.com", vapidKeys.publicKey, vapidKeys
 // 3. Paste your subscription JSON from the app (exactly as logged)
 const subscription = {
   endpoint:
-    "https://fcm.googleapis.com/fcm/send/ebjpFNN59lE:APA91bEb2n9CEDhUz65sH4TT-KRxTGMGINCr-pbzGE5cYA5TH0kiexyrJ1XfqEuQgNDWmWlnv0Yitf2VH4rS_4xOh78OCCASM9GkiOe2bP-pmPb7DkzmLo5SHgElxPRu1weNqpV4nLvB",
+    "https://fcm.googleapis.com/fcm/send/f3OvE7lWHO0:APA91bGXGMglnopVzEG4lVXyqEEoicS53ALf9b7r1QYoEyoUjm5hemNCWFYUq0NU0sZMiiZQ-97mE8-VuTyh7ZRkVY4Z6sXFgmBvx95rH78wFvuRBaeE6kw-V83pPWHv1wk9unZv-s5l",
   expirationTime: null,
   keys: {
-    p256dh: "BAXvBRRe48YBtJKyQpndn3TDjFgffjwpvp6aLpwZRavf3ofX3AbFvAh__L0qM-mtaPyYylBrPjpnlGEA7I0GpdA",
-    auth: "04f4Y_hxRzhaDOKGjWJtQQ",
+    p256dh: "BJLgJJK1TavZoVGEYSrnfM0xoTg1TYjzq8TtKYQi2l5Lw3yCs5s-0wU-BtoGW4AM-mP5tykQZxo6PRUCfnr5Rls",
+    auth: "-rBwoqwy6BAYGi3oIPqJdg",
   },
 };
 

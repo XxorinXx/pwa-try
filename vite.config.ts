@@ -11,6 +11,9 @@ export default defineConfig({
       devOptions: {
         enabled: true, // so PWA also works in dev while we play
       },
+      strategies: "injectManifest",
+      srcDir: "src",
+      filename: "sw.ts",
       manifest: {
         name: "My Vite React PWA",
         short_name: "MyPWA",
